@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeta.Extensions.Aws.Ses", "src\Aeta.Extensions.Aws.Ses\Aeta.Extensions.Aws.Ses.csproj", "{83214552-4C24-431E-B97E-0E4EBC8853C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeta.Extensions.Aws.Ses.Tests", "tests\Aeta.Extensions.Aws.Ses.Tests\Aeta.Extensions.Aws.Ses.Tests.csproj", "{08665EA0-3E7C-4AC8-AF82-3EE6E8CB55F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83214552-4C24-431E-B97E-0E4EBC8853C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83214552-4C24-431E-B97E-0E4EBC8853C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83214552-4C24-431E-B97E-0E4EBC8853C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83214552-4C24-431E-B97E-0E4EBC8853C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08665EA0-3E7C-4AC8-AF82-3EE6E8CB55F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08665EA0-3E7C-4AC8-AF82-3EE6E8CB55F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08665EA0-3E7C-4AC8-AF82-3EE6E8CB55F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08665EA0-3E7C-4AC8-AF82-3EE6E8CB55F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EDC3334-1BB8-46DA-8D30-CC7810E5544C}
+	EndGlobalSection
+EndGlobal
