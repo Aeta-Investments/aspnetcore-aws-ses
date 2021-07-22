@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="AWSSDK.SimpleEmailV2" Version="3.7.0.43" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+	</ItemGroup>
+	
 </Project>
